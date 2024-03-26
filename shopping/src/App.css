@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.headersection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 15px;
+  height: 25px;
+  background-color: yellow;
+}
+.left {
+  width: 150px;
+  flex: 0.5;
+}
+.right {
+  width: 200px;
+  flex: 0.5;
+  display: inline-flex;
+  padding-right: 20px;
+  padding-left: 100px;
+  justify-content: space-between;
+}
+
+.center ul li {
+  list-style: none;
+  display: inline-flex;
+  /* flex: 1; */
+  margin: 0 10px;
+}
+
+.banner_box img {
+  width: 100%;
+}
+.menImages {
+  display: flex;
+  gap: 10px;
+}
+.menImages img {
+  width: 235px;
+  height: 220px;
+}
+.women_Images {
+  display: flex;
+  gap: 10px;
+}
+.women_Images img {
+  width: 219px;
+  height: 219px;
+}
+.women_collection img {
+  width: 100%;
+}
